@@ -1,0 +1,17 @@
+FLEET OBSERVATION KGU - PAKET ANDROID FINAL
+
+Paket ini sudah berisi struktur project Android lengkap.
+Jangan upload file satu-satu dari folder app.
+
+Struktur penting:
+- .github/workflows/build-apk.yml
+- app/
+- build.gradle
+- gradle.properties
+- settings.gradle
+
+Workflow GitHub Actions akan membuat APK debug installable:
+app/build/outputs/apk/debug/app-debug.apk
+
+Artifact GitHub Actions:
+Fleet-Observation-KGU-APK
